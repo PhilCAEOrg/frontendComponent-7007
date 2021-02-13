@@ -39,7 +39,8 @@ var init = function() {
     console.log(intent);
 
   };
-
+ 
+  console.log("TEST");
   client = new Las2peerWidgetLibrary("$Microservice_Url$/music", iwcCallback, '*');
 
   $('#button_d9eae').on('click', function() {
